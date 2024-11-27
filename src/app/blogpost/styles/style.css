@@ -1,0 +1,15 @@
+h2, h3{
+    margin-block:15px 20px;
+}
+
+ul li{
+    padding-block:3px;
+    list-style-type: circle;
+}
+ul, ol{
+    padding-left:15px;
+}
+ol li{
+    list-style-type:decimal;
+    padding-block:3px;
+}

@@ -25,10 +25,9 @@ export default async function Page({ params }) {
         //     content: "<p>This is the content of the blog post. It can include <strong>HTML</strong> tags and other elements.</p>"
         // };
         
+        const { slug } = params; // Assuming params is provided directly
         let filepath;
-        const par = await params;
-        const slug = par.slug;
-        console.log(slug,"this is slug")
+        
         if (await params) {
             filepath = `content/${slug}.md`
 

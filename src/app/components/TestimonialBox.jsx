@@ -10,7 +10,7 @@ const TestimonialBox= (props)=>{
            alt={props.name}
            width={300}
            height={200}
-           className="h-[50] object-cover w-[50] overflow-hidden rounded-full inline-block"
+           className="h-[50px] object-cover w-[50px] overflow-hidden rounded-full inline-block"
            />
            <div className="self-center">
            <Image

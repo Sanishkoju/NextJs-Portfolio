@@ -23,15 +23,20 @@ export default async function Page({ params }) {
     //     date: "2024-09-02",
     //     content: "<p>This is the content of the blog post. It can include <strong>HTML</strong> tags and other elements.</p>"
     // };
-
-    const filepath = `content/${params.slug}.md`
-
+console.log(params,"this is params")
+let filepath;
+  if(params){
+     filepath = `content/${params.slug}.md`
+    // const path = require("path");
+    // const filepath = path.join(process.cwd(), "content", `${params.slug}.md`);
+    
     if(!fs.existsSync(filepath)){ 
       notFound() 
       return 
   } 
+  }
 
-    const fileContent = fs.readFileSync(filepath, "utf-8")
+  const fileContent = fs.readFileSync(filepath, "utf-8");
     const {content, data} = matter(fileContent)
 
     const proccesser =await unified()

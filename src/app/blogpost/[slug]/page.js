@@ -25,11 +25,13 @@ export default async function Page({ params }) {
     // };
 console.log(params,"this is params")
 let filepath;
-  if(params){
-     filepath = `content/${params.slug}.md`
+const par=await params;
+  if(await params){
+     filepath = `content/${par.slug}.md`
+
     // const path = require("path");
     // const filepath = path.join(process.cwd(), "content", `${params.slug}.md`);
-    
+    console.log(filepath)
     if(!fs.existsSync(filepath)){ 
       notFound() 
       return 

@@ -48,7 +48,8 @@ const htmlContent =(await proccesser.process(content)).toString()
 
 
     return (
-        <main className="flex min-h-screen flex-col bg-[#121212] container px-4 pt-12 m-auto md:px-12 ">
+        <main className="flex min-h-screen flex-col bg-[#121212] px-4 pt-12 m-auto md:px-12 ">
+            <div className='container'>
       <Navbar />
         <div className="max-w-6xl mx-auto py-16">
             <h1 className="text-4xl font-bold mb-8 text-white">{data.title}</h1>
@@ -67,6 +68,7 @@ const htmlContent =(await proccesser.process(content)).toString()
             <Blog />
         </div>
         <Footer />
+        </div>
         </main>
     )
 }

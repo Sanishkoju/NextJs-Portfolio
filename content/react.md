@@ -1,7 +1,7 @@
 ---
-title: NextJs
+title: React
 description: A modern React framework that enables server-side rendering, static site generation, and optimized performance, making it ideal for building fast and scalable web applications.
-slug: nextjs
+slug: react
 date: 11/02/2025
 author: sanish
 image: /images/projects/project3.jpg
@@ -9,9 +9,9 @@ image: /images/projects/project3.jpg
 
 # NextJs
 
-Next.js is a powerful React framework for building static and dynamic websites with ease. It offers optimized performance, great SEO features, and server-side rendering, which are crucial for modern web applications. For this portfolio project, Next.js is used to create a fast, SEO-friendly, and scalable website that showcases work, skills, and projects efficiently.
+React is a powerful React framework for building static and dynamic websites with ease. It offers optimized performance, great SEO features, and server-side rendering, which are crucial for modern web applications. For this portfolio project, React is used to create a fast, SEO-friendly, and scalable website that showcases work, skills, and projects efficiently.
 
-## Key Fields of Next.js:
+## Key Fields of React:
 
 - **Server-Side Rendering (SSR):** Automatically renders pages on the server for improved SEO and faster initial load times.
 - **Static Site Generation (SSG):** Pre-renders pages at build time, ensuring fast loading and good performance for static content.
@@ -22,8 +22,8 @@ Next.js is a powerful React framework for building static and dynamic websites w
 - **Fast Refresh:** Instant page updates during development without losing application state.
 
 
-## Why Use Next.js for Portfolio Projects:
+## Why Use React for Portfolio Projects:
 
-- **SEO Friendly:** With SSR and SSG, Next.js provides excellent SEO optimization for your portfolio.
+- **SEO Friendly:** With SSR and SSG, React provides excellent SEO optimization for your portfolio.
 - **Performance Optimized:** Features like automatic code splitting and image optimization ensure the site loads quickly, improving the user experience.
-- **Scalability:** With its server-side capabilities and easy deployment, Next.js is great for building scalable applications that can grow with your portfolio over time.
+- **Scalability:** With its server-side capabilities and easy deployment, React is great for building scalable applications that can grow with your portfolio over time.

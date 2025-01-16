@@ -1,26 +1,6 @@
 import Link from "next/link";
 import NavLink from "./NavLink";
-
-
-const navLinks = [
-  {
-    title: "About",
-    path: "//#about",
-  },
-  {
-    title: "Projects",
-    path: "//#project",
-  },
-  {
-    title: "Contact",
-    path: "//#contact",
-  },
-  {
-    title: "Blogs",
-    path: "/blog",
-  },
-];
-
+import { navLinks } from "../NavData";
 
 const Footer = () => {
     return(

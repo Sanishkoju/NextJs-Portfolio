@@ -28,10 +28,10 @@ const Projects = [
         description: 'This Next.js portfolio highlights cutting-edge web technologies, offering server-side rendering, responsive design, and a dynamic showcase of skills and projects.',
     },
     {
-        names: "Portfolio",
+        names: "React E-commerce",
         image: '/images/projects/project5.jpg',
-        titles: 'Portfolio',
-        description: 'This portfolio is built using HTML, CSS, and JavaScript, featuring a clean design, responsive layout, and interactive elements to effectively showcase projects and skills.',
+        titles: 'React App',
+        description: 'This React is built using HTML, CSS, and JavaScript, React featuring a clean design, responsive layout, and interactive elements to effectively showcase projects and skills using dummy data for e-commerce',
     },
 ];
 

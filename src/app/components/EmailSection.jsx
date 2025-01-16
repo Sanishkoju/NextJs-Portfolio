@@ -6,6 +6,7 @@ import emailjs from '@emailjs/browser';
 import Link from "next/link";
 import Image from "next/image";
 
+
 const EmailSection = () => {
   const handleOnChange =() =>{
     

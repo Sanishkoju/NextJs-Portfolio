@@ -27,8 +27,8 @@ const HeroBanner = () => {
       repeat={Infinity}
     />
             </h1>
-            <p className="text-[#ADB7BE] text-base lg:text-2xl">As a dedicated Frontend Developer with over 1 year of experience specializing in WordPress and Shopify, I am committed to creating
-            engaging, user-friendly websites that drive business success. Procient in HTML, CSS, JavaScript, php, Liquid ,Nextjs etc</p>
+            <p className="text-[#ADB7BE] text-base lg:text-2xl">As a dedicated Frontend Developer with over 1 year of experience specializing in WordPress, I am committed to creating
+            engaging, user-friendly websites that drive business success. Procient in HTML, CSS, JavaScript, php, React ,Nextjs etc</p>
             <Link href ="/cv/sanish-resume.pdf" className="text-center block w-full md:w-max border border-white rounded-full bg-white text-[#000000] px-3 py-3 hover:bg-[#000000] hover:text-white mt-8 mb-8" download>Download CV</Link>
             </div>
 

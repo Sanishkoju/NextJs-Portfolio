@@ -13,7 +13,8 @@ const TAB_DATA = [
         <li>CSS</li>
         <li>PHP</li>
         <li>Wordpress</li>
-        <li>JavaScript</li>
+        <li>JavaScript</li> 
+        <li>React</li>         
         <li>NextJs</li>
       </ul>
     ),

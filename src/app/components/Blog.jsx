@@ -28,7 +28,7 @@ const Blog = () => {
 
           {/* Grid layout for blog posts */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
-        {blogs.map((blog, index) => (
+        {blogs.slice(0, 3).map((blog, index) => (
           <div key={index} className="rounded-lg shadow-md overflow-hidden  dark:border-2 bg-white relative">
             {/* Blog post image */}
             <img src={blog.image} alt={blog.title} className="w-full h-64 object-cover" />
